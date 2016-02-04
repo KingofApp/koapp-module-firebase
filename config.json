@@ -7,10 +7,10 @@
     "market": true,
     "dragDrop": true
   },
-  "view": "modules/firebase/index.html",
-  "files": ["modules/firebase/controller.js", "modules/firebase/factory.js"],
+  "view": "http://resources.kingofapp.com/modules/firebase/index.html",
+  "files": ["http://resources.kingofapp.com/modules/firebase/controller.js", "http://resources.kingofapp.com/modules/firebase/factory.js"],
   "scope": {
-    "src": "XXXX",
+    "src": "",
     "debug": true
   },
   "libs": [{
