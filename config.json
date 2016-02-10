@@ -2,6 +2,7 @@
   "name": "Firebase Module",
   "identifier": "firebase",
   "type": "A",
+  "icon": "firebase",
   "showOn": {
     "menu": true,
     "market": true,
