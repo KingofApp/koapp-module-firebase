@@ -1,0 +1,16 @@
+{
+  "name": "koapp-module-firebase",
+  "authors": "King of App",
+  "description": "firebase module for King of App",
+  "keywords": [
+    "kingofapp",
+    "module"
+  ],
+  "license": "MIT",
+  "homepage": "http://kingofapp.com",
+  "private": true,
+  "dependencies": {
+    "firebase": "#2.2.4",
+    "angularfire": "#1.1.2"
+  }
+}

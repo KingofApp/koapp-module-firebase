@@ -1,28 +1,71 @@
 {
-  "name": "Firebase Module",
-  "identifier": "firebase",
-  "type": "A",
-  "icon": "firebase",
-  "showOn": {
-    "menu": true,
-    "market": true,
-    "dragDrop": true
+  "name" : "Firebase module",
+  "identifier" : "firebase",
+  "description" : "Modulo de Firebase",
+  "icon" : "firebase",
+  "documentation" : "",
+  "type" : "A",
+  "version" : "1.0",
+  "author" : "King of App",
+  "category" : [
+      "others"
+  ],
+  "price" : 0,
+  "subscription": false,
+  "platforms" : [
+      "android",
+      "ios",
+      "windows"
+  ],
+  "view" : "modules/firebase/index.html",
+  "files" : [
+      "modules/firebase/controller.js",
+      "modules/firebase/factory.js"
+  ],
+  "scope" : {
+      "src" : "",
+      "debug" : false
   },
-  "view": "http://resources.kingofapp.com/modules/firebase/index.html",
-  "files": ["http://resources.kingofapp.com/modules/firebase/controller.js", "http://resources.kingofapp.com/modules/firebase/factory.js"],
-  "scope": {
-    "src": "",
-    "debug": true
+  "libs" : [
+      {
+          "bower" : {
+              "firebase" : "2.2.4"
+          },
+          "src" : "https://cdn.firebase.com/js/client/2.2.4/firebase.js"
+      },
+      {
+          "bower" : {
+              "angularfire" : "1.1.2"
+          },
+          "src" : "https://cdn.firebase.com/libs/angularfire/1.1.2/angularfire.min.js"
+      }
+  ],
+  "config" : [
+      {
+          "type" : "input",
+          "key" : "src",
+          "templateOptions" : {
+              "description" : "url de la fuente",
+              "pattern" : "(https?://)([/\\w.()-]*).*",
+              "required" : true,
+              "label" : "fuente"
+          }
+      }
+  ],
+  "showOn" : {
+      "dragDrop" : false,
+      "menu" : false,
+      "market" : false
   },
-  "libs": [{
-    "bower": {
-      "firebase": "2.2.4"
-    },
-    "src": "https://cdn.firebase.com/js/client/2.2.4/firebase.js"
-  }, {
-    "bower": {
-      "angularfire": "1.1.2"
-    },
-    "src": "https://cdn.firebase.com/libs/angularfire/1.1.2/angularfire.min.js"
-  }]
+  "images" : {
+      "screenshots" : [
+          "./images/modules/firebase_screenshot01.png",
+          "./images/modules/firebase_screenshot02.png"
+      ],
+      "popover" : "./images/modules/firebase.png",
+      "banner" : "./images/modules/firebase_banner.png",
+      "logo" : "./images/modules/firebase_logo.png",
+      "list" : "./images/modules/firebase.png"
+  },
+  "descriptionShort" : "Modulo de Firebase"
 }
