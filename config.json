@@ -58,14 +58,6 @@
       "market" : false
   },
   "images" : {
-      "screenshots" : [
-          "./images/modules/firebase_screenshot01.png",
-          "./images/modules/firebase_screenshot02.png"
-      ],
-      "popover" : "./images/modules/firebase.png",
-      "banner" : "./images/modules/firebase_banner.png",
-      "logo" : "./images/modules/firebase_logo.png",
-      "list" : "./images/modules/firebase.png"
   },
   "descriptionShort" : "Modulo de Firebase"
 }
