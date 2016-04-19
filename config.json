@@ -31,13 +31,13 @@
           "bower" : {
               "firebase" : "2.2.4"
           },
-          "src" : "https://cdn.firebase.com/js/client/2.2.4/firebase.js"
+          "src" : "bower_components/firebase/firebase.js"
       },
       {
           "bower" : {
               "angularfire" : "1.1.2"
           },
-          "src" : "https://cdn.firebase.com/libs/angularfire/1.1.2/angularfire.min.js"
+          "src" : "bower_components/angularfire/dist/angularfire.min.js"
       }
   ],
   "config" : [
