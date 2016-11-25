@@ -3,7 +3,10 @@
   "identifier" : "firebase",
   "description" : "Modulo de Firebase",
   "icon" : "firebase",
-  "documentation" : "",
+  "documentation": {
+    "es-ES": "modules/firebase/documentation/es_ES.md",
+    "en-US": "modules/firebase/documentation/en_US.md"
+  },
   "type" : "A",
   "version" : "1.0",
   "author" : "King of App",
