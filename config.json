@@ -32,13 +32,13 @@
   "libs" : [
       {
           "bower" : {
-              "firebase" : "2.2.4"
+              "firebase" : "^2.2.4"
           },
           "src" : "bower_components/firebase/firebase.js"
       },
       {
           "bower" : {
-              "angularfire" : "1.1.2"
+              "angularfire" : "^1.1.2"
           },
           "src" : "bower_components/angularfire/dist/angularfire.min.js"
       }
