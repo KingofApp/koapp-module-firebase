@@ -10,7 +10,7 @@
   "homepage": "http://kingofapp.com",
   "private": true,
   "dependencies": {
-    "firebase": "#2.2.4",
-    "angularfire": "#1.1.2"
+    "firebase": "^2.2.4",
+    "angularfire": "^1.1.2"
   }
 }
