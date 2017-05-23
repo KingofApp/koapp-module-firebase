@@ -1,66 +1,65 @@
 {
-  "name" : "Firebase module",
-  "identifier" : "firebase",
-  "description" : "Modulo de Firebase",
-  "icon" : "firebase",
-  "documentation": {
-    "es-ES": "modules/firebase/documentation/es_ES.md",
-    "en-US": "modules/firebase/documentation/en_US.md"
-  },
-  "type" : "A",
-  "version" : "1.0.4",
-  "author" : "King of App",
-  "category" : [
-      "others"
-  ],
-  "price" : 0,
-  "subscription": false,
-  "platforms" : [
-      "android",
-      "ios",
-      "windows"
-  ],
-  "view" : "modules/firebase/index.html",
-  "files" : [
-      "modules/firebase/controller.js",
-      "modules/firebase/factory.js"
-  ],
-  "scope" : {
-      "src" : "",
-      "debug" : false
-  },
-  "libs" : [
-      {
-          "bower" : {
-              "firebase" : "^2.2.4"
-          },
-          "src" : "bower_components/firebase/firebase.js"
-      },
-      {
-          "bower" : {
-              "angularfire" : "^1.1.2"
-          },
-          "src" : "bower_components/angularfire/dist/angularfire.min.js"
-      }
-  ],
-  "config" : [
-      {
-          "type" : "input",
-          "key" : "src",
-          "templateOptions" : {
-              "description" : "url de la fuente",
-              "pattern" : "(https?://)([/\\w.()-]*).*",
-              "required" : true,
-              "label" : "fuente"
-          }
-      }
-  ],
-  "showOn" : {
-      "dragDrop" : false,
-      "menu" : false,
-      "market" : false
-  },
-  "images" : {
-  },
-  "descriptionShort" : "Modulo de Firebase"
+    "name": "Firebase module",
+    "identifier": "firebase",
+    "description": "Modulo de Firebase",
+    "icon": "firebase",
+    "documentation": {
+        "es-ES": "modules/firebase/documentation/es_ES.md",
+        "en-US": "modules/firebase/documentation/en_US.md"
+    },
+    "type": "A",
+    "version": "1.0.5",
+    "author": "King of App",
+    "category": [
+        "others"
+    ],
+    "price": 0,
+    "subscription": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/firebase/index.html",
+    "files": [
+        "modules/firebase/controller.js",
+        "modules/firebase/factory.js"
+    ],
+    "scope": {
+        "src": "",
+        "debug": false
+    },
+    "libs": [
+        {
+            "bower": {
+                "firebase": "^2.2.4"
+            },
+            "src": "bower_components/firebase/firebase.js"
+        },
+        {
+            "bower": {
+                "angularfire": "^1.1.2"
+            },
+            "src": "bower_components/angularfire/dist/angularfire.min.js"
+        }
+    ],
+    "config": [
+        {
+            "type": "input",
+            "key": "src",
+            "templateOptions": {
+                "description": "url de la fuente",
+                "pattern": "(https?://)([/\\w.()-]*).*",
+                "required": true,
+                "label": "fuente"
+            }
+        }
+    ],
+    "showOn": {
+        "dragDrop": false,
+        "menu": false,
+        "market": false
+    },
+    "images": {},
+    "descriptionShort": "Modulo de Firebase"
 }
