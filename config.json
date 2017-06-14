@@ -8,7 +8,7 @@
         "en-US": "modules/firebase/documentation/en_US.md"
     },
     "type": "A",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "author": "King of App",
     "category": [
         "others"
@@ -60,6 +60,5 @@
         "menu": false,
         "market": false
     },
-    "images": {},
     "descriptionShort": "Modulo de Firebase"
 }

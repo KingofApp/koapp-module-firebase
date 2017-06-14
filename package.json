@@ -1,6 +1,6 @@
 {
     "name": "koapp-module-firebase",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Activa este módulo para poder compartir en tu App una espectacular galería de imágenes",
     "directories": {
         "test": "test"
